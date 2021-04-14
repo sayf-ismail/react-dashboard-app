@@ -9,7 +9,7 @@ function Nav(props) {
 
   return (<nav>
   <ul>
-      <li>{props.name}</li>
+      <li>Avatar and Username{props.name}</li>
       <li><NavLink onClick={clearSessionStorage} exact to='/'>Logout</NavLink></li>
   </ul>
 </nav>)
