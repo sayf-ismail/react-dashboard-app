@@ -6,7 +6,7 @@ import { useHistory } from "react-router-dom";
 import "./Login.css";
 
 async function loginUser(credentials) {
-  return fetch('https://localhost:5000/login', {
+  return fetch('https://sayf-react-dashboard-app.herokuapp.com/login', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
