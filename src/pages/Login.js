@@ -6,7 +6,7 @@ import { useHistory } from "react-router-dom";
 import "./Login.css";
 
 async function loginUser(credentials) {
-  return fetch('http://localhost:8080/login', {
+  return fetch('http://localhost:5000/login', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
