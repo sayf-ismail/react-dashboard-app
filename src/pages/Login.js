@@ -31,7 +31,7 @@ export default function Login({ setToken }) {
     try {
       history.push("/dashboard");
     } catch (e) {
-      alert(e.message);
+      console.log(e.message);
     }
   }
 

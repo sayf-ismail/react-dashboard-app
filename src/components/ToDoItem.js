@@ -12,7 +12,7 @@ function ToDoItem(props) {
 
   return (
     <div>
-      <li onClick={handleClick} style={isDone ? strikeThrough : null} className={ isDone ? 'complete' : ''}>{props.id} {props.text} { isDone ? 'COMPLETED' : ''}</li>
+      <li onClick={handleClick} style={isDone ? strikeThrough : null} className={ isDone ? 'complete' : ''}>{props.id + 1} {props.text} { isDone ? 'COMPLETED' : ''}</li>
     </div>
   );
 }
