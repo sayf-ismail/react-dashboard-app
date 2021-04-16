@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+## See the app live here: https://sayf-react-dashboard-app.herokuapp.com/
+
 ### Instructions for installation:
 1. clone the repo to your machine
 2. run `yarn` or `npm install` 3. 
